@@ -1,0 +1,9 @@
+{
+    "typescript.preferences.importModuleSpecifier": "relative",
+    "typescript.suggest.completeFunctionCalls": false,
+    "jest.autoRun": {
+        "watch": false,
+        "onStartup": ["all-tests"],
+        "onSave": "test-file"
+    },
+}

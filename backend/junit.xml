@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="jest tests" tests="17" failures="0" errors="0" time="14.069">
+  <testsuite name="status.test.ts" errors="0" failures="0" skipped="0" timestamp="2024-03-30T02:01:37" time="13.874" tests="17">
+    <testcase classname="status.test.ts" name=" GET, create a new (Status: DRAFT)" time="0.519">
+    </testcase>
+    <testcase classname="status.test.ts" name=" PUT - update news (Status: DRAFT -&gt; DRAFT)" time="0.48">
+    </testcase>
+    <testcase classname="status.test.ts" name=" PUT - submit news (Status: DRAFT -&gt; SUBMITTED)" time="0.469">
+    </testcase>
+    <testcase classname="status.test.ts" name=" DELETE - update news (Status: DRAFT -&gt; DELETE)" time="0.457">
+    </testcase>
+    <testcase classname="status.test.ts" name=" PUT - set a news in review (Status: SUBMITTED -&gt; IN REVIEW)" time="0.573">
+    </testcase>
+    <testcase classname="status.test.ts" name=" PUT - reject a news (Status: IN REVIEW -&gt; REJECTED )" time="0.474">
+    </testcase>
+    <testcase classname="status.test.ts" name=" PUT - send rejected news back to jornalist (Status: REJECTED -&gt; DRAFT )" time="0.472">
+    </testcase>
+    <testcase classname="status.test.ts" name=" DELETE - delete news in review (Status: IN REVIEW -&gt; DELETED)" time="0.469">
+    </testcase>
+    <testcase classname="status.test.ts" name=" PUT - edit a news (Status: IN REVIEW -&gt; EDITED)" time="0.472">
+    </testcase>
+    <testcase classname="status.test.ts" name=" PUT - edit a news (Status: EDITED -&gt; EDITED)" time="0.466">
+    </testcase>
+    <testcase classname="status.test.ts" name=" PUT - set edited news back to review (Status: EDITED -&gt; IN REVIEW )" time="0.506">
+    </testcase>
+    <testcase classname="status.test.ts" name=" PUT - schedule the publication of a news (Status: IN REVIEW -&gt; SCHEDULED)" time="0.467">
+    </testcase>
+    <testcase classname="status.test.ts" name=" PUT - publish a news (Status: SCHEDULED -&gt; PUBLISHED)" time="0.475">
+    </testcase>
+    <testcase classname="status.test.ts" name=" PUT - send published news back to review (Status: PUBLISHED -&gt; IN REVIEW)" time="0.479">
+    </testcase>
+    <testcase classname="status.test.ts" name=" PUT - archive a news (Status: PUBLISHED -&gt; ARCHIVED)" time="0.482">
+    </testcase>
+    <testcase classname="status.test.ts" name=" PUT - delete archived news (Status: ARCHIVED -&gt; DELETED)" time="0.509">
+    </testcase>
+    <testcase classname="status.test.ts" name=" PUT - publish archived news (Status: ARCHIVED -&gt; PUBLISHED)" time="0.501">
+    </testcase>
+  </testsuite>
+</testsuites>
